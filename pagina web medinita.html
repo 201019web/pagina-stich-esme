@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <title>Página Matilda con Stitch</title>
+  <style>
+    body {
+      background-image: url('stitch.png');
+      background-attachment: fixed;
+      transition: all 0.3s ease;
+      color: black;
+      background-color: white;
+      font-family: Arial, sans-serif;
+    }
+
+    nav {
+      width: 100%;
+      text-align: center;
+      background-color: #FFFFFF;
+      padding: 20px 0;
+    }
+
+    label {
+      padding: 50px;
+      font-size: 2em;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #0073e6;
+      margin: 0 15px;
+      font-size: 1.2em;
+    }
+
+    nav a:hover {
+      color: #005bb5;
+    }
+
+    section {
+      background-color: #FFFFFF;
+      width: 60%;
+      margin: auto;
+      margin-top: 100px;
+      font-size: 1.2em;
+      padding: 20px;
+      line-height: 1.8;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .dark-mode {
+      background-color: black !important;
+      color: white !important;
+    }
+
+    .dark-mode nav {
+      background-color: black;
+    }
+
+    .dark-mode nav a {
+      color: lightblue;
+    }
+
+    .dark-mode section {
+      background-color: black;
+      color: white;
+    }
+
+    .center {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .center img {
+      width: 600px;
+      padding: 50px;
+    }
+
+    .color-toggle-btn {
+      display: block;
+      margin: 20px auto;
+      padding: 10px 20px;
+      font-size: 1.2em;
+      background-color: #333;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .color-toggle-btn:hover {
+      background-color: #555;
+    }
+  </style>
+
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle("dark-mode");
+    }
+  </script>
+</head>
+<body>
+
+  <nav>
+    <label><a target="_blank" href="https://www.google.com/">IR a Google</a></label>
+    <label><a target="_blank" href="https://www.facebook.com/">IR a Facebook</a></label>
+    <label><a target="_blank" href="https://www.instagram.com/">IR a Instagram</a></label>
+  </nav>
+
+  <!-- Botón para activar/desactivar modo oscuro -->
+  <div style="text-align: center; margin-top: 20px;">
+    <button onclick="toggleDarkMode()" class="color-toggle-btn">Modo Oscuro</button>
+  </div>
+
+  <section>
+    <h2 style="text-align: center;">Matilda - Harry Styles</h2>
+    <p>
+      You were riding your bike to the sound of "It's No Big Deal"<br>
+      And you're trying to lift off the ground on those old two wheels<br>
+      Nothing 'bout the way that you were treated ever seemed especially alarming 'til now<br>
+      So you tie up your hair and you smile like it's no big deal<br><br>
+
+      You can let it go<br>
+      You can throw a party full of everyone you know<br>
+      And not invite your family, 'cause they never showed you love<br>
+      You don't have to be sorry for leaving and growing up, mhm<br><br>
+
+      Matilda, you talk of the pain like it's all alright<br>
+      But I know that you feel like a piece of you's dead inside<br>
+      You showed me a power that is strong enough to bring sun to the darkest days<br>
+      It's none of my business, but it's just been on my mind<br><br>
+
+      You can let it go<br>
+      You can throw a party full of everyone you know<br>
+      And not invite your family, 'cause they never showed you love<br>
+      You don't have to be sorry for leaving and growing up<br><br>
+
+      You can see the world, following the seasons<br>
+      Anywhere you go, you don't need a reason<br>
+      'Cause they never showed you love<br>
+      You don't have to be sorry for doing it on your own<br><br>
+
+      You're just in time, make your tea and your toast<br>
+      You framed all your posters and dyed your clothes, ooh<br>
+      You don't have to go<br>
+      You don't have to go home<br>
+      Oh, there's a long way to go<br><br>
+
+      I don't believe that time will change your mind<br>
+      In other words, I know they won't hurt you anymore<br>
+      As long as you can let them go<br><br>
+
+      You can let it go<br>
+      You can throw a party full of everyone you know<br>
+      You can start a family who will always show you love<br>
+      You don't have to be sorry for doing it on your own<br><br>
+
+      You can let it go<br>
+      You can throw a party full of everyone you know<br>
+      You can start a family who will always show you love<br>
+      You don't have to be sorry, no
+    </p>
+
+    <div class="center">
+      <img src="stitch.png" alt="Stitch imagen">
+    </div>
+
+    <div class="center">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/8ORGg7T0w1s"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+      </iframe>
+    </div>
+  </section>
+
+</body>
+</html>
+
+</html>
